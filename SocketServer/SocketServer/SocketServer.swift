@@ -1,16 +1,15 @@
 //
-//  main.swift
+//  SocketServer.swift
 //  SocketServer
 //
-//  Created by 李伟 on 16/4/20.
+//  Created by 李伟 on 16/4/21.
 //  Copyright © 2016年 Jasoooon. All rights reserved.
 //
-
 
 import Foundation
 import CoreFoundation
 
-class main: NSObject ,NSStreamDelegate{
+class SocketServer: NSObject ,NSStreamDelegate{
     var inputStream:NSInputStream?
     var outputStream:NSOutputStream?
     
@@ -60,6 +59,8 @@ class main: NSObject ,NSStreamDelegate{
         
         inputStream?.open()
         outputStream?.open()
+        
+        print("connect")
         
     }
     

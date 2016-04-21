@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0F655A41CC7C20D00505FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F655A31CC7C20D00505FFB /* AppDelegate.swift */; };
-		D0F655A61CC7C20D00505FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F655A51CC7C20D00505FFB /* Assets.xcassets */; };
-		D0F655A91CC7C20D00505FFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F655A71CC7C20D00505FFB /* MainMenu.xib */; };
-		D0F655B11CC7C22600505FFB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F655B01CC7C22600505FFB /* main.swift */; };
+		D0C51E9B1CC860D20023C3D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C51E9A1CC860D20023C3D2 /* AppDelegate.swift */; };
+		D0C51E9D1CC860D20023C3D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C51E9C1CC860D20023C3D2 /* ViewController.swift */; };
+		D0C51E9F1CC860D20023C3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C51E9E1CC860D20023C3D2 /* Assets.xcassets */; };
+		D0C51EA21CC860D20023C3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C51EA01CC860D20023C3D2 /* Main.storyboard */; };
+		D0C51EAA1CC860E90023C3D2 /* SocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C51EA91CC860E90023C3D2 /* SocketServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0F655A01CC7C20D00505FFB /* SocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F655A31CC7C20D00505FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0F655A51CC7C20D00505FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0F655A81CC7C20D00505FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D0F655AA1CC7C20D00505FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0F655B01CC7C22600505FFB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D0C51E971CC860D20023C3D2 /* SocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C51E9A1CC860D20023C3D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0C51E9C1CC860D20023C3D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0C51E9E1CC860D20023C3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C51EA11CC860D20023C3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C51EA31CC860D20023C3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C51EA91CC860E90023C3D2 /* SocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0F6559D1CC7C20D00505FFB /* Frameworks */ = {
+		D0C51E941CC860D20023C3D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,30 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D0F655971CC7C20D00505FFB = {
+		D0C51E8E1CC860D20023C3D2 = {
 			isa = PBXGroup;
 			children = (
-				D0F655A21CC7C20D00505FFB /* SocketServer */,
-				D0F655A11CC7C20D00505FFB /* Products */,
+				D0C51E991CC860D20023C3D2 /* SocketServer */,
+				D0C51E981CC860D20023C3D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D0F655A11CC7C20D00505FFB /* Products */ = {
+		D0C51E981CC860D20023C3D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0F655A01CC7C20D00505FFB /* SocketServer.app */,
+				D0C51E971CC860D20023C3D2 /* SocketServer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0F655A21CC7C20D00505FFB /* SocketServer */ = {
+		D0C51E991CC860D20023C3D2 /* SocketServer */ = {
 			isa = PBXGroup;
 			children = (
-				D0F655A31CC7C20D00505FFB /* AppDelegate.swift */,
-				D0F655A51CC7C20D00505FFB /* Assets.xcassets */,
-				D0F655A71CC7C20D00505FFB /* MainMenu.xib */,
-				D0F655AA1CC7C20D00505FFB /* Info.plist */,
-				D0F655B01CC7C22600505FFB /* main.swift */,
+				D0C51E9A1CC860D20023C3D2 /* AppDelegate.swift */,
+				D0C51E9C1CC860D20023C3D2 /* ViewController.swift */,
+				D0C51E9E1CC860D20023C3D2 /* Assets.xcassets */,
+				D0C51EA01CC860D20023C3D2 /* Main.storyboard */,
+				D0C51EA31CC860D20023C3D2 /* Info.plist */,
+				D0C51EA91CC860E90023C3D2 /* SocketServer.swift */,
 			);
 			path = SocketServer;
 			sourceTree = "<group>";
@@ -64,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0F6559F1CC7C20D00505FFB /* SocketServer */ = {
+		D0C51E961CC860D20023C3D2 /* SocketServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0F655AD1CC7C20D00505FFB /* Build configuration list for PBXNativeTarget "SocketServer" */;
+			buildConfigurationList = D0C51EA61CC860D20023C3D2 /* Build configuration list for PBXNativeTarget "SocketServer" */;
 			buildPhases = (
-				D0F6559C1CC7C20D00505FFB /* Sources */,
-				D0F6559D1CC7C20D00505FFB /* Frameworks */,
-				D0F6559E1CC7C20D00505FFB /* Resources */,
+				D0C51E931CC860D20023C3D2 /* Sources */,
+				D0C51E941CC860D20023C3D2 /* Frameworks */,
+				D0C51E951CC860D20023C3D2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -78,25 +81,25 @@
 			);
 			name = SocketServer;
 			productName = SocketServer;
-			productReference = D0F655A01CC7C20D00505FFB /* SocketServer.app */;
+			productReference = D0C51E971CC860D20023C3D2 /* SocketServer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D0F655981CC7C20D00505FFB /* Project object */ = {
+		D0C51E8F1CC860D20023C3D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Jasoooon;
 				TargetAttributes = {
-					D0F6559F1CC7C20D00505FFB = {
+					D0C51E961CC860D20023C3D2 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = D0F6559B1CC7C20D00505FFB /* Build configuration list for PBXProject "SocketServer" */;
+			buildConfigurationList = D0C51E921CC860D20023C3D2 /* Build configuration list for PBXProject "SocketServer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -104,53 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = D0F655971CC7C20D00505FFB;
-			productRefGroup = D0F655A11CC7C20D00505FFB /* Products */;
+			mainGroup = D0C51E8E1CC860D20023C3D2;
+			productRefGroup = D0C51E981CC860D20023C3D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0F6559F1CC7C20D00505FFB /* SocketServer */,
+				D0C51E961CC860D20023C3D2 /* SocketServer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D0F6559E1CC7C20D00505FFB /* Resources */ = {
+		D0C51E951CC860D20023C3D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F655A61CC7C20D00505FFB /* Assets.xcassets in Resources */,
-				D0F655A91CC7C20D00505FFB /* MainMenu.xib in Resources */,
+				D0C51E9F1CC860D20023C3D2 /* Assets.xcassets in Resources */,
+				D0C51EA21CC860D20023C3D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0F6559C1CC7C20D00505FFB /* Sources */ = {
+		D0C51E931CC860D20023C3D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F655B11CC7C22600505FFB /* main.swift in Sources */,
-				D0F655A41CC7C20D00505FFB /* AppDelegate.swift in Sources */,
+				D0C51EAA1CC860E90023C3D2 /* SocketServer.swift in Sources */,
+				D0C51E9D1CC860D20023C3D2 /* ViewController.swift in Sources */,
+				D0C51E9B1CC860D20023C3D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0F655A71CC7C20D00505FFB /* MainMenu.xib */ = {
+		D0C51EA01CC860D20023C3D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0F655A81CC7C20D00505FFB /* Base */,
+				D0C51EA11CC860D20023C3D2 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D0F655AB1CC7C20D00505FFB /* Debug */ = {
+		D0C51EA41CC860D20023C3D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		D0F655AC1CC7C20D00505FFB /* Release */ = {
+		D0C51EA51CC860D20023C3D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +236,7 @@
 			};
 			name = Release;
 		};
-		D0F655AE1CC7C20D00505FFB /* Debug */ = {
+		D0C51EA71CC860D20023C3D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -244,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		D0F655AF1CC7C20D00505FFB /* Release */ = {
+		D0C51EA81CC860D20023C3D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -259,24 +263,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0F6559B1CC7C20D00505FFB /* Build configuration list for PBXProject "SocketServer" */ = {
+		D0C51E921CC860D20023C3D2 /* Build configuration list for PBXProject "SocketServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0F655AB1CC7C20D00505FFB /* Debug */,
-				D0F655AC1CC7C20D00505FFB /* Release */,
+				D0C51EA41CC860D20023C3D2 /* Debug */,
+				D0C51EA51CC860D20023C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0F655AD1CC7C20D00505FFB /* Build configuration list for PBXNativeTarget "SocketServer" */ = {
+		D0C51EA61CC860D20023C3D2 /* Build configuration list for PBXNativeTarget "SocketServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0F655AE1CC7C20D00505FFB /* Debug */,
-				D0F655AF1CC7C20D00505FFB /* Release */,
+				D0C51EA71CC860D20023C3D2 /* Debug */,
+				D0C51EA81CC860D20023C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D0F655981CC7C20D00505FFB /* Project object */;
+	rootObject = D0C51E8F1CC860D20023C3D2 /* Project object */;
 }

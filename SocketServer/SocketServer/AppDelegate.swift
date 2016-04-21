@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SocketServer
 //
-//  Created by 李伟 on 16/4/20.
+//  Created by 李伟 on 16/4/21.
 //  Copyright © 2016年 Jasoooon. All rights reserved.
 //
 
@@ -11,7 +11,6 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
